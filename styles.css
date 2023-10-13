@@ -290,12 +290,104 @@ html {
 /*content 4 ends*/
 
 /*content 5 starts*/
+#content5 {
+    background-color: #111;
+    height: 300vh;
+}
+
+#content5 .container .row1 {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+#content5 .container .row1 h2,
+h1 {
+    color: white;
+}
+
+#content5 .container .row1 h2 {
+    font-size: 24px;
+}
+
+#content5 .container .row1 h1 {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 100px;
+}
+
+#round {
+
+    border-radius: 50px;
+}
+
+#content5text1 {
+    color: #868689;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 380px;
+    line-height: 23px;
+}
+
+#content51img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.overlayingtext {
+    color: #868689;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+#content54text {
+    color: #868689;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23px;
+    margin-top: 7vh;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 
 /*content 5 ends*/
 
 /*content 6 starts*/
+#content6head{
+    font-size: 48px;
+    line-height: 1.0834933333;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+}
 
+#content6items{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    text-align: center; /* Center text horizontally */
+  display: flex; /* Enable flex layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.grid-container {
+    gap: 6px;
+    display: flex;
+    flex-direction: row; /* Make the dots display horizontally */
+  }
+
+  .grid-items {
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+  }
+  #content6items .gr4 hr {
+    border: 1px solid #000; /* Set border properties to create a visible line */
+    margin: 20px 0; /* Add some margin to control spacing */
+  }
+  
 
 /*content 6 ends*/
 
